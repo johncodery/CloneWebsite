@@ -1,0 +1,642 @@
+
+body  {
+    background-color:#fff ;
+}
+  
+     /* TITLE  NAVBAR SECTION*/
+
+#title nav {
+    border-bottom: 1px solid #dde1e7;
+}    
+ 
+
+#title nav .navbar-brand {
+    font-family: "Sacramento", cursive;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 30px;  
+    font-weight: bolder;
+}
+
+#title nav .navbar-toggler {
+    background-color: inherit;
+    outline: none;
+    border: none;
+}
+
+#title nav ul a {
+    text-decoration: none;
+    font-family: "ubunto";
+    font-weight: bold;
+   list-style: none;
+   cursor: pointer;
+   font-size: 15px;
+   color: #666;
+   margin: 15px;
+}
+
+#title nav .search .sign {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "ubunto";
+    margin-left: 15px;
+    color: #666;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#title nav .search i {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+#title nav .search .share {
+    background-color: #f72585;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+    height: 40px;  
+    width: 40px;
+}
+
+#title nav .search .share:hover {
+    background-color: #f082ac;
+}
+
+#title nav .navbar-brand:hover {
+    background-color: #f8f9fa;
+}
+
+#interface .board {
+    justify-content: flex-start;
+    padding: 15px 30px 0 40px;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+   
+}
+
+#interface .board  p {
+    margin: 15px;
+}
+#interface .board a {
+    text-decoration: none;
+    font-family: "roboto";
+    color: #343a40;
+    cursor: pointer;
+}
+
+#interface .board a span p {
+    background-color: #F4F4F4;
+    font-family: "roboto";
+    border-radius: 10px;
+    font-weight: 300px;
+    padding: 8px;
+    font-size: 18px;
+    color: #000;
+}
+
+#interface .board a  p {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#interface .graphics-img {
+    justify-content: flex-start;
+    padding: 10px 70px 5px 90px;
+    align-items: center;
+    display: flex;
+}
+
+#interface .graphics-img h4 {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    color: #343a40;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#interface .graphics-img img {
+    border-radius: 15px;
+    margin-left: 140px;
+    position: relative;
+    width: 410px;
+    height: 320px;
+}
+
+#interface .graphics-img .coinbase {
+    box-shadow:  -3px 2px 5px rgba(0,0,0,0.5), 3px -1px 0px rgba(255, 255, 255);
+    justify-content: flex-start;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 50px;
+    display: flex;
+    width: 320px;
+    padding: 20px;
+    bottom: 240px;
+}
+
+#interface .graphics-img .coinbase h6 {
+    color: #343a40;
+
+}
+
+#interface .graphics-img .coinbase i {
+    margin-right: 20px;
+    font-size: 45px;
+    color: blue;
+}
+
+#interface .click {
+    padding: 10px 70px 5px 90px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    bottom: 50px;   
+}
+
+#interface .button {
+    background-color: #f72585;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 10px;
+    width: 320px;
+    height: 42px;
+}
+
+#interface .click .button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#interface .click .button:hover {
+    background-color: #f082ac;
+}
+
+#interface .click .learn {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+    height: 42px;
+}
+
+#interface .click .learn:hover {
+     background-color: #dee2e6;
+}
+
+#interface .click .learn a {
+    text-decoration: none;
+    color: #000;
+}
+
+#interface .opportunity {
+    padding: 10px 70px 5px 90px;
+}
+
+#interface .opportunity p {
+    font-weight: 400px;
+    color: #343a40;
+}
+
+#interface .over-all {
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3.5em; 
+    margin-top: 40px;
+    display: flex;
+}
+
+#interface  ul div {
+    transition:  0.3s ease;
+}
+
+#interface .over-all li  {
+    list-style: none; 
+}
+
+#interface .over-all .general-rect  {
+    margin-bottom: 94.5em;  
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+#interface .over-all .general-rect a {
+    text-decoration: none;
+}
+
+#interface .over-all .filter-vertical {
+    border: 1px solid #dde1e7;
+    background-color: #fff;   
+    margin-bottom: 197.8em;
+    border-radius: 10px;
+    height: 964px;
+    width: 300px;
+}
+
+#interface .over-all .filter-vertical .filter {
+    position: relative;
+    font-weight: bold;
+    left: 39px;
+    top: 30px;
+}
+
+#interface .over-all .filter-vertical .filter-button {
+    background-color: #f72585;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-left: 37px;
+    font-size: 14px;
+    padding: 10px;
+    bottom: 4.4em;
+    width: 40vh;
+    height: 42px;
+}
+
+#interface .over-all .filter-vertical .filter-button .btn-filter a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#interface .over-all .filter-vertical .filter-button:hover {
+    background-color: #f082ac;
+}
+
+#interface .over-all .filter-vertical hr {
+    margin-top: 25px;
+    width: 215px;
+}
+
+#interface .over-all .filter-vertical .zaza {
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 45px;
+    display: flex;
+}
+
+#interface .over-all .filter-vertical .counter-form {
+    position: relative;
+    bottom: 6em;
+}
+
+#interface .over-all .filter-vertical form .form-input {
+    border: 3px solid #dde1e7;
+    border-radius: 10px;
+    width: 40vh;
+    height: 10vh;
+}
+
+#interface .over-all .filter-vertical form .form-input:hover {
+    border: 5px solid #f082ac;
+    transition: 0.3s ease;
+}
+
+#interface .over-all .filter-vertical form .form-input input {
+    background-color: inherit;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 8px; 
+    outline: none;
+    border: none;
+    padding: 2%;
+    right: 15px;
+}
+
+#interface .over-all .filter-vertical .check-box {
+    margin-left: 37px;
+}
+
+#interface .over-all .filter-vertical .hr {
+    margin-bottom: 5em;
+}
+
+#interface .over-all .filter-vertical .check-box .speciality h6 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+
+#interface .over-all .filter-vertical .check-box .input-range form input {
+    border: 1px solid #dde1e7; 
+    color: #f72585;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#interface .over-all .filter-vertical .check-box .input-range form input:hover {
+    border: 3px solid #f72585;
+    border-radius: 10px;
+}
+
+#interface .over-all .filter-vertical .open-to-remote {
+   position: relative;
+   bottom: 5em;
+}
+
+#interface .over-all .filter-vertical .hr-remote {
+   position: relative;
+   bottom: 5.5em;
+}
+
+#interface .over-all .filter-vertical .open-to-remote form input {
+    border: 1px solid #dde1e7; 
+    color: #f72585;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+#interface .over-all .filter-vertical .open-to-remote form label {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #3d3d4e; 
+    font-size: 14px;
+}
+
+#interface .over-all .filter-vertical .check-box  .input-range form label {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #3d3d4e;
+    font-size: 14px;
+}
+
+#interface .over-all .filter-vertical .check-box  .input-range form {
+    margin-top: 10px;
+}
+
+#interface .over-all .filter-vertical .check-box  .input-range {
+    margin-top: 15px;
+}
+
+#interface .over-all .filter-vertical .location {
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    bottom: 60px;
+}
+
+#interface .over-all .general-rect .global-designer {
+    border-bottom: 1px solid #dde1e7;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  
+}
+
+#interface .over-all .general-rect .global-designer:hover {
+    background-color: #F4F4F4;
+    padding: 9px 13px;
+}
+
+#interface .over-all .general-rect .global-designer span img {
+    margin-right: 25px;
+    position: relative;
+    border-radius: 50%;
+    height: 55px; 
+    bottom: 5px;
+    width: 55px;
+}
+
+#interface .over-all .general-rect .global-designer h5 {
+    font-weight: bolder;
+    color: #000;
+    font-size: 14px;
+
+}
+
+#interface .over-all .general-rect .global-designer p big {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400px;
+    color: #343a40;
+}
+
+#interface .over-all .general-rect .global-designer .designer p {
+    font-weight: 800px;
+    color: #7f7f7f;
+    font-size: 15px;
+}
+
+#interface .over-all .general-rect .global-designer .designer p big {
+    font-size: 16px;
+}
+
+#interface .over-all .general-rect .global-designer .york p {
+    color: #7f7f7f;
+    font-size: 14px;
+}
+
+#interface .over-all .general-rect .global-designer .york {
+    margin-left: 7em;
+}
+
+#interface .over-all .general-rect .global-designer .designer {
+    margin-right: 100px;
+}
+
+#interface .over-all .general-rect .global-designer .icon-york  {
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 52px;
+    font-size: 14px;
+    display: flex;
+    color: #333;
+}
+
+#interface .over-all .general-rect .global-designer .icon-york i {
+    margin-bottom: 12px;
+    margin-right: 5px;
+}
+
+#interface  .anchor-icon {
+    background-color: #a2a4a5a4;
+    margin: 15px 0em 0 12em;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    height: 40px;
+    width: 40px; 
+}
+#interface  .anchor-icon I {
+    color: #fff;
+}
+
+#interface  .anchor-icon:hover {
+    background-color: #6c757d;
+}
+
+         /* DRIBBLE-DESIGNERS*/
+
+#dribble-designers {
+    background-color: #F4F4F4;
+    position: relative;
+    bottom: 93em;
+}
+
+#dribble-designers .dribble-table {
+    padding: 20px 30px 0px 90px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+#dribble-designers  .dribble-table .leading {
+    margin-bottom: 25.7em;
+    margin-right: 4em;
+}
+
+#dribble-designers  .dribble-table .leading .dribble-the-world p {
+    line-height: 25px;
+    color: #151c24;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#dribble-designers .dribble-table .leading .fa-icon {
+    word-spacing: 14px;
+    font-size: 20px;  
+}
+
+#dribble-designers .dribble-table .leading .fa-icon a {
+    color: #3d3d4e;
+}
+
+#dribble-designers  .dribble-table .leading .fa-pinterest {
+    color: #3d3d4e;
+    font-size: 20px;  
+    margin-top: 10px;
+}
+
+#dribble-designers  .dribble-table .table-data table {
+    border-collapse: separate;
+    margin-bottom: 2em;
+    
+  
+}
+
+#dribble-designers .dribble-table .table-data thead tr th {
+   color: #000;
+}
+
+#dribble-designers .dribble-table .table-data tbody a {
+    text-decoration: none;
+    color: #151c24;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#dribble-designers  .dribble-table .dribble-the-world h2 {
+    font-family: 'Cedarville Cursive', sacramento;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+#dribble-designers  .dribble-table .dribble-the-world h2 a {
+    text-decoration: none;
+    color: #F73D93;
+}
+
+#dribble-designers  .dribble-table .dribble-the-world h2 a:hover {
+    color: #AF0171;
+}
+
+            /* FOOTER */
+
+#footer {
+    position: relative;
+    padding: 0 10px 0 20px;
+    bottom: 92em;
+   
+}
+
+#footer .footer-container {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+#footer .footer-container .shot i {
+    font-size: 20px;
+     color: #f72585;
+}
+
+#footer .footer-container .shot h6 strong {
+    font-weight: bold;
+}
+
+#footer .footer-container .shot-items {
+   margin-left: 125px;
+   color: #7f7f7f;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+#footer .footer-container .copyright {
+    margin-right: 45em;
+    color: #7f7f7f;   
+    font-weight: 500;
+}
+
+
+
+       /* IPAD RESPONSIVE */
+
+@media (max-width: 920px) {
+
+#title nav .search .share {
+    display: none;
+}
+    
+#title nav .search span i {
+
+    display: none;
+}
+     
+}
+
+         /* MOBILE RESPONSIVE */
+
+@media (max-width:520px) {
+
+#title nav .search .share {
+    display: none;
+}
+
+#title nav .search span i {
+    display: none;
+}
+
+#title nav .search .sign {
+    position: relative;
+    font-size: 20px;
+    right: 3em;
+}
+
+}
+
+
+
